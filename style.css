@@ -1,23 +1,12 @@
-{
-    margin: 10;
-    padding: 10; 
+.gridtitulo{
+    text-align: center;
+    color: black;
+    font-size: 30px;
 }
-
-.cabecalho {
-    background-color: #78B8F2;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 12px 12px;
+.gridimagens{
+    width: 250px;
 }
-
-.cabecalho-imagem{
-    width: 10%;
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 10px 4px;
-    font-size: 16px;
+.todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
